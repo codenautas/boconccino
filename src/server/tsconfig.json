@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "../../dist/server",
+        "module": "none",
+        "target": "es2020",
+        "lib":["es2020"],
+        "baseUrl": "",
+        "strict": true
+    },
+    "include":[
+        "."
+, "../common/table-actores.ts", "../common/engine.ts"    ], 
+    "extends": "../../tsconfig-common.json"
+}
